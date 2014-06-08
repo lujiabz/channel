@@ -1,0 +1,105 @@
+#wrap {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+* {
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+.g-content {
+
+}
+.g-grid {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: -1;
+}
+.u-grid {
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	border-right: 1px solid #00f5f5;
+}
+.u-grid:last-child {
+	border:none;
+}
+.m-toolbar {
+	height: 40px;
+	line-height: 40px;
+	background: #ccc;
+}
+.m-channel {
+	position: absolute;
+	top: 40px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+}
+.m-channel > .inner {
+	min-height: 100%;
+}
+
+.m-panel {
+	position: absolute;
+	height: 300px;
+	width: 300px;
+	padding: 3px;
+	cursor: move;
+	border: 1px solid #f00;
+}
+.m-panel > .inner {
+	position: absolute;
+	left: 3px;
+	right: 3px;
+	top: 3px;
+	bottom: 3px;
+	
+}
+.m-panel > .inner .tit {
+	position: absolute;
+	line-height: 30px;
+	height: 30px;
+	left: 0;
+	right: 0;
+	font-size: 16px;
+}
+.m-panel > .inner .mn {
+	position: absolute;
+	top: 30px;
+	bottom: 0;	
+}
+.m-panel > .inner .corner {
+	position: absolute;
+	bottom: -8px;
+	right: -8px;
+	width: 10px;
+	height: 10px;
+	background: #000;
+	z-index: 2;
+	
+	cursor: crosshair;
+}
+.hide {
+	display: none;
+}
+.pull-left{
+	float: left;
+}
+.pull-right{
+	float: right;
+}
+
+.btn-small {
+
+}
+.btn {
+	cursor: pointer;
+}

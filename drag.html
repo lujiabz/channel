@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		* {
+			box-sizing:border-box;
+			-webkit-box-sizing:border-box;
+			-moz-box-sizing:border-box;
+		}
+		ul {
+			list-style: none;
+			width: 300px;
+		}
+		ul li {
+			height: 30px;
+			line-height: 30px;
+			border: 1px solid #ccc;
+			margin-bottom: 10px;
+		}
+	</style>
+</head>
+<body>
+	
+	<ul>
+		<li draggable=true>test1</li>
+		<li draggable=true>test2</li>
+		<li draggable=true>test3</li>
+		<li draggable=true>test4</li>
+	</ul>
+
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/sea.js"></script>
+	<script>
+		
+		seajs.use("test")
+	</script>
+</body>
+</html>
